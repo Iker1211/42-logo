@@ -17,11 +17,16 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: var(--white);
     font-family: var(--font-family);
+  }
+
+  a {
+    margin-top: 300px;
   }
   
   .logo-container {
